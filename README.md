@@ -25,7 +25,7 @@ CRUD => Create, Read, Update, Delete. (Écrire, Lire, Mettre à jour, Supprimer)
 Il s’agit des opérations de base attendues par un SGBD (mais pas uniquement, on s’en sert aussi dans d’autres types de logiciels).
 L'acronyme CRUD se réfère à la majorité des opérations implémentées dans les bases de données relationnelles. Chaque composante de l'acronyme peut être associée à un type de requête en SQL ainsi qu'à une méthode HTTP1,2.
 
-Operation SQL HTTP
+Operation SQL HTTP = requete Postman
 Create INSERT PUT (en) / POST (en)
 Read (Retrieve) SELECT GET (en)
 Update (Modify) UPDATE PUT (en) / PATCH (en)
@@ -35,7 +35,8 @@ LA MODELISATION
 En conception de base de données, la modélisation est l’étape indispensable qui permet de comprendre les processus métiers et de les transcrire informatiquement en flux de données et de traitements.
 La modélisation est la brique indispensable qui permet de construire une base de données solide et conforme aux attentes des utilisateurs.
 Cette étape est préalable à la construction concrète de la base de données et la construction des différents écrans que manipuleront les utilisateurs.
-
+|
+|
 UML Abréviation de United Modeling Langage.(Langage de Modélisation unifié)
 UML est un outil souvent utilisé en développement informatique.
 Il permet via des outils graphiques de représenter le fonctionnement d’un outil informatique (c’est particulièrement vrai en Programmation Orientée Objet ou UML permet de modéliser directement les objets qui seront ensuite manipulés par le programme informatique).
@@ -127,5 +128,11 @@ Les identifiants se transforment en clés et se retrouvent soulignés.
 Chaque table dispose d’au minimum 1 clé dite primaire ;
 Les relations et les cardinalités se transforment en champs parfois soulignés : il s’agit de créer des « clés étrangères » reliées à une « clé primaire » dans une autre table.
 
+Requete URL-SQL avec Postman
 
-MOT
+------------------------SOUTIEN----------------------------------
+shéma fonctionnement API Node.js (slide)
+
+Route: fetch(localhost:8080/api/listHero).
+Notre site => requete url => route (fonction du verbe HTTP) => Réponse à notre site.
+API = chercher la definission
